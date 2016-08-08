@@ -14,6 +14,8 @@
 		C446182E1D531720002B09AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C446182D1D531720002B09AC /* Assets.xcassets */; };
 		C44618311D531720002B09AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C446182F1D531720002B09AC /* LaunchScreen.storyboard */; };
 		C446183B1D5317FC002B09AC /* YDCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = C446183A1D5317FC002B09AC /* YDCryptor.m */; };
+		C48EAF5C1D5823B80015B08F /* YDUser.m in Sources */ = {isa = PBXBuildFile; fileRef = C48EAF5B1D5823B80015B08F /* YDUser.m */; };
+		C4FB0AF01D5858F200090318 /* id和instancetype.h in Sources */ = {isa = PBXBuildFile; fileRef = C4FB0AEF1D5858F200090318 /* id和instancetype.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,9 @@
 		C44618381D531756002B09AC /* YDKitDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDKitDefines.h; sourceTree = "<group>"; };
 		C44618391D5317FC002B09AC /* YDCryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDCryptor.h; sourceTree = "<group>"; };
 		C446183A1D5317FC002B09AC /* YDCryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDCryptor.m; sourceTree = "<group>"; };
+		C48EAF5A1D5823B80015B08F /* YDUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDUser.h; sourceTree = "<group>"; };
+		C48EAF5B1D5823B80015B08F /* YDUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDUser.m; sourceTree = "<group>"; };
+		C4FB0AEF1D5858F200090318 /* id和instancetype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "id和instancetype.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,9 +69,12 @@
 			children = (
 				C44618241D531720002B09AC /* AppDelegate.h */,
 				C44618251D531720002B09AC /* AppDelegate.m */,
+				C4FB0AEF1D5858F200090318 /* id和instancetype.h */,
 				C44618381D531756002B09AC /* YDKitDefines.h */,
 				C44618391D5317FC002B09AC /* YDCryptor.h */,
 				C446183A1D5317FC002B09AC /* YDCryptor.m */,
+				C48EAF5A1D5823B80015B08F /* YDUser.h */,
+				C48EAF5B1D5823B80015B08F /* YDUser.m */,
 				C44618271D531720002B09AC /* ViewController.h */,
 				C44618281D531720002B09AC /* ViewController.m */,
 				C446182A1D531720002B09AC /* Main.storyboard */,
@@ -158,8 +166,10 @@
 			files = (
 				C44618291D531720002B09AC /* ViewController.m in Sources */,
 				C44618261D531720002B09AC /* AppDelegate.m in Sources */,
+				C4FB0AF01D5858F200090318 /* id和instancetype.h in Sources */,
 				C446183B1D5317FC002B09AC /* YDCryptor.m in Sources */,
 				C44618231D531720002B09AC /* main.m in Sources */,
+				C48EAF5C1D5823B80015B08F /* YDUser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +320,7 @@
 				C44618371D531720002B09AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

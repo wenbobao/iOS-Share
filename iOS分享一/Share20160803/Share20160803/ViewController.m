@@ -7,8 +7,13 @@
 //
 
 #import "ViewController.h"
+#import "YDUser.h"
 
 @interface ViewController ()
+
+@property(nonatomic, strong)NSMutableArray* userOnes;
+
+@property(nonatomic, strong)NSMutableArray<YDUser *> * userTwos;
 
 @end
 
@@ -17,6 +22,26 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+
+    YDUser *user1 = [YDUser modleWithName:@"zhangsan" age:18];
+    YDUser *user2 = [YDUser modleWithName:@"lisa" age:18];
+    YDUser *user3 = [YDUser modleWithName:@"wangwu" age:18];
+    
+    _userOnes = @[user1,user2,user3,@4].mutableCopy;
+    
+//    _userTwos = @[user1,user2,user3];
+    
+    _userTwos = [NSMutableArray arrayWithObjects:user1,user2,user3, nil];
+    [_userTwos addObject:@1];
+    
+    NSLog(@"%@",[_userTwos lastObject]);
+    
+//    NSLog(@"%li",_userOnes.firstObject.age);
+    
+    NSLog(@"%li",_userTwos.firstObject.age);
+    
+//    [[NSArray array]mask];
+    
     
     [self share1];
 }
@@ -109,6 +134,14 @@
     }else{
         NSLog(@"str不为空");
     }
+}
+
+
+//@符号编译器 也可以说说成Objective-C 有关的简写符号
+- (void)share4
+{
+    NSMutableArray *mArray = @[].mutableCopy;
+    NSMutableDictionary *mDictionary = @{}.mutableCopy;
 }
 
 @end
