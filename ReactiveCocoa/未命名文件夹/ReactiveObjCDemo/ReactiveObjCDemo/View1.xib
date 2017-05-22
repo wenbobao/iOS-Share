@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="View1">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gEo-DV-z7w">
+                    <rect key="frame" x="0.0" y="0.0" width="94" height="49"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <state key="normal" title="1"/>
+                    <connections>
+                        <action selector="buttonClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="ID0-En-O6J"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hfO-vF-7q2">
+                    <rect key="frame" x="94" y="0.0" width="93.5" height="49"/>
+                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <state key="normal" title="2"/>
+                    <connections>
+                        <action selector="buttonClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="hy6-bC-h3N"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pJJ-Vn-bxz">
+                    <rect key="frame" x="187.5" y="0.0" width="94" height="49"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <state key="normal" title="3"/>
+                    <connections>
+                        <action selector="buttonClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="Wn4-5y-3Dn"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DD7-2t-ibl">
+                    <rect key="frame" x="281.5" y="0.0" width="93.5" height="49"/>
+                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <state key="normal" title="4"/>
+                    <connections>
+                        <action selector="buttonClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="DFa-za-dwP"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="gEo-DV-z7w" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="20k-xk-dQa"/>
+                <constraint firstItem="hfO-vF-7q2" firstAttribute="width" secondItem="gEo-DV-z7w" secondAttribute="width" id="3X3-s3-lw4"/>
+                <constraint firstItem="pJJ-Vn-bxz" firstAttribute="top" secondItem="gEo-DV-z7w" secondAttribute="top" id="55v-dp-PGD"/>
+                <constraint firstItem="DD7-2t-ibl" firstAttribute="top" secondItem="gEo-DV-z7w" secondAttribute="top" id="C6n-q2-tU8"/>
+                <constraint firstItem="DD7-2t-ibl" firstAttribute="height" secondItem="gEo-DV-z7w" secondAttribute="height" id="HwT-Lb-9Dr"/>
+                <constraint firstAttribute="bottom" secondItem="gEo-DV-z7w" secondAttribute="bottom" id="IPh-BF-wQX"/>
+                <constraint firstAttribute="trailing" secondItem="DD7-2t-ibl" secondAttribute="trailing" id="JPL-tR-AjU"/>
+                <constraint firstItem="hfO-vF-7q2" firstAttribute="height" secondItem="gEo-DV-z7w" secondAttribute="height" id="OGF-uQ-IG9"/>
+                <constraint firstItem="hfO-vF-7q2" firstAttribute="top" secondItem="gEo-DV-z7w" secondAttribute="top" id="UNi-X7-wNm"/>
+                <constraint firstItem="DD7-2t-ibl" firstAttribute="width" secondItem="gEo-DV-z7w" secondAttribute="width" id="bEE-Bf-ywg"/>
+                <constraint firstItem="gEo-DV-z7w" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="dPm-nV-hiP"/>
+                <constraint firstItem="hfO-vF-7q2" firstAttribute="leading" secondItem="gEo-DV-z7w" secondAttribute="trailing" id="gfh-EM-wTt"/>
+                <constraint firstItem="DD7-2t-ibl" firstAttribute="leading" secondItem="pJJ-Vn-bxz" secondAttribute="trailing" id="heT-30-08a"/>
+                <constraint firstItem="pJJ-Vn-bxz" firstAttribute="height" secondItem="gEo-DV-z7w" secondAttribute="height" id="ifl-UB-do8"/>
+                <constraint firstItem="pJJ-Vn-bxz" firstAttribute="width" secondItem="gEo-DV-z7w" secondAttribute="width" id="pAJ-xO-tk4"/>
+                <constraint firstItem="pJJ-Vn-bxz" firstAttribute="leading" secondItem="hfO-vF-7q2" secondAttribute="trailing" id="phj-oJ-Fly"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+</document>

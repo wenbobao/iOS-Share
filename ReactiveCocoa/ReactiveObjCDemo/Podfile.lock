@@ -1,0 +1,15 @@
+PODS:
+  - HandyFrame (1.1.2)
+  - ReactiveObjC (2.1.2)
+
+DEPENDENCIES:
+  - HandyFrame (~> 1.1.2)
+  - ReactiveObjC (~> 2.1.2)
+
+SPEC CHECKSUMS:
+  HandyFrame: d505faced4d4fb820d66bd88b654dbf7b88da424
+  ReactiveObjC: 7b6782ae39f9ac0f57205c3b0c0b69b9dd7048c0
+
+PODFILE CHECKSUM: 99820966279078c818d00ac393e5fc382e8b56e4
+
+COCOAPODS: 1.1.0
